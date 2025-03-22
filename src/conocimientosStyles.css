@@ -1,0 +1,129 @@
+/* estilo general Conocimientos*/
+#Conocimientos {
+    width: 100%;
+    height: 25%;
+}
+
+@media (max-width: 768px) {
+    #Conocimientos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* estilo texto Conocimientos*/
+.descripcion {
+    height: 25%;
+    position: relative;
+    background-color: #c1abd7;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .descripcion {
+        width: 100%;
+        height: 25%;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        left:-1%;
+    }
+}
+
+
+.h2Conocimientos {
+    color: #c1abd7;
+    text-shadow: 1px 0px 5px rgba(48, 48, 49, 1);
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.pConocimientos {
+    color: #e4e2e6;
+    background-color: transparent;
+    font-size: 180%;
+    text-shadow: #c1abd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .pConocimientos {
+        font-size: 18px;
+    }
+}
+
+/* estilo cards apps*/
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   gap: 20px;
+   padding: 20px;
+}
+
+@media (max-width:768px) {
+    .cards {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+/* estilo card individual*/
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 200px;
+border: 5px solid transparent;
+border-radius: 100px;
+box-shadow: 0 4px 6px rgba(119, 117, 120, 0.1);
+text-align: center;
+}
+
+/* estilo texto extra*/
+#sobreMi {
+    color: #e4e2e6;
+    width: 70%;
+    font-size: 180%;
+    position: relative;
+    left: 14%;
+    background-color: #c1abd7;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    #sobreMi {
+        width: 100%;
+        height: 25%;
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        left: 0px;
+        text-align: center;
+        left: -1%;
+    }
+}

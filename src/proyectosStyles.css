@@ -1,0 +1,133 @@
+/* sección de proyectos */
+#Proyectos {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #Proyectos {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#Proyectos h2 {
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    color: thistle ;
+}
+
+@media (max-width:768px) {
+    #Proyectos h2 {
+        font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+/* estilo de cards de Proyectos*/
+.cardsProyecto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .cardsProyecto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.cardsProyecto div:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width:768px) {
+    .cardPortafolio, .cardApp, .cardArte {
+        height: 35%;
+        width: auto;
+    }
+}
+
+.cardPortafolio, .cardApp, .cardArte {
+    width: 25%;
+    height: 80%;
+    margin: 50px;
+    border: 5px solid transparent;
+    border-radius: 200px;
+    box-shadow: 0 4px 6px rgba(119, 117, 120, 0.1);
+}
+
+/* imagenes*/
+.cardPortafolio img {
+    width: 60%;
+    height: auto;
+    border-radius: 30%;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}  
+
+.cardApp img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 30%;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}  
+
+.cardArte img {
+    width: 60%;
+    margin: 40px;
+    height: auto;
+    border-radius: 30%;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+
+/* card nombres cards general*/
+.cardPortafolio p, .cardApp p, .cardArte p {
+    color: #e4e2e6;
+    background-color: #c1abd7;
+    padding: 1px;
+    border-radius: 5px;
+    width: 40%;
+    font-size: x-large;
+    font-style: bold;
+    text-align: center;
+}
+
+/* card textos detalles individual*/
+.cardPortafolio p {
+    position: relative;
+    top: 85px;
+    left: 30%;
+}
+
+.cardApp p {
+    position: relative;
+    top: 83px;
+    left: 30%;
+}
+
+.cardArte p {
+    position: relative;
+    top: 72px;
+    left: 30%;
+}
+
+@media( max-width:768px) {
+    .cardsProyecto p {
+        font-size: 18px;
+    }
+}
